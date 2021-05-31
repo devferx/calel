@@ -223,6 +223,89 @@ body {
   }
 }
 
+.how-works-section {
+  padding: 64px 16px;
+  text-align: center;
+}
+
+.how-works-section .headline2 {
+  margin-top: 8px;
+}
+
+.how-works-section > img {
+  width: 100%;
+  margin: 64px 0;
+  object-fit: cover;
+  border-radius: 40px;
+  aspect-ratio: 1 / 1;
+}
+
+.steps-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.step {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  text-align: start;
+  position: relative;
+}
+
+.step p {
+  margin-top: 8px;
+}
+
+.step-description {
+  flex: 1;
+}
+
+.step-counter {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 99px;
+  background-color: var(--primary);
+  color: var(--white);
+  z-index: 99;
+}
+
+.step-line {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: var(--grey);
+  z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .how-works-section {
+    padding: 128px 0;
+  }
+  .how-works-section .headline2 {
+    margin-top: 24px;
+  }
+
+  .how-works-section > img {
+    margin: 96px 0;
+    max-width: 600px;
+    aspect-ratio: unset;
+  }
+
+  .steps-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .headline1 {
   font-family: var(--font-base);
   font-weight: 900;
@@ -230,10 +313,36 @@ body {
   line-height: 48px;
 }
 
+.headline2 {
+  font-family: var(--font-base);
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 65px;
+}
+
+.headline3 {
+  font-family: var(--font-base);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+
 .headline5 {
   font-family: var(--font-base);
   font-size: 20px;
   line-height: 32px;
+}
+
+.body1 {
+  font-family: var(--font-base);
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.body3 {
+  font-family: var(--font-base);
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .regular {
@@ -252,16 +361,20 @@ body {
   font-weight: 900;
 }
 
-.body3 {
-  font-family: var(--font-base);
-  font-size: 14px;
-  line-height: 24px;
-}
-
 @media screen and (min-width: 1024px) {
   .headline1 {
     font-size: 90px;
     line-height: 90px;
+  }
+
+  .headline5 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .body1 {
+    font-size: 18px;
+    line-height: 36px;
   }
 }
 
