@@ -49,6 +49,9 @@ $mobile-body2-bold: 700 1rem/1.5rem Inter;
 .body1 {
   font: $mobile-body1-regular;
 }
+.body2 {
+  font: $mobile-body2-regular;
+}
 .body3 {
   font: $desktop-body3-regular;
 }
@@ -97,5 +100,8 @@ $mobile-body2-bold: 700 1rem/1.5rem Inter;
 
   .body1 {
     font: $desktop-body1-regular;
+  }
+  .body2 {
+    font: $desktop-body2-regular;
   }
 }
