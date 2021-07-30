@@ -1,0 +1,29 @@
+.enterprises-section {
+  width: 100%;
+  padding: 80px 0;
+  background-color: var(--grey-bg);
+  text-align: center;
+}
+
+.enterprises-section__title {
+  font: $mobile-h5-black;
+}
+
+.enterprises-logos-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  column-gap: 64px;
+  row-gap: 80px;
+  margin-top: 64px;
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+  .enterprises-section__title {
+    font: $desktop-h4;
+  }
+  .enterprises-logos-container {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}

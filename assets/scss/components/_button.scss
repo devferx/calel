@@ -1,0 +1,15 @@
+.button {
+  display: block;
+  padding: 10px 24px;
+  font: 700 14px / 28px var(--font-base);
+  text-decoration: none;
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  background-color: var(--primary);
+  border-radius: 999px;
+}
+
+.button.button--black {
+  background-color: var(--black);
+}

@@ -4,7 +4,8 @@
   "description": "<p align=\"center\">     <a href=\"https://leonidasesteban.com/proyectos/todos\"><img src=\"https://raw.githubusercontent.com/no-te-rindas/logo/main/Logo/LonidasEsteban-destello-envolvente-circular-negro.png\" height=\"100\"/></a> </p>",
   "main": "index.js",
   "scripts": {
-    "styles:dev": "sass ./assets/scss/styles.scss ./assets/css/main.css --watch"
+    "styles:dev": "sass ./assets/scss/styles.scss ./assets/css/main.css --watch",
+    "styles:build": "sass ./assets/scss/styles.scss ./assets/css/main.css"
   },
   "repository": {
     "type": "git",

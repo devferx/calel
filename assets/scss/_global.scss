@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-base);
+  font-size: 16px;
+  color: var(--black);
+}
+
+body {
+  margin-top: 96px;
+}
+
+:root {
+  --primary: #006bff;
+  --grey-bg: #fbfbfb;
+  --grey: #cecece;
+  --white: #ffffff;
+  --black: #000000;
+
+  --font-base: "Inter", sans-serif;
+}
