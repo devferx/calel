@@ -1,7 +1,9 @@
+@import "../theme/fonts";
+
 .button {
   display: block;
   padding: 10px 24px;
-  font: 700 14px / 28px var(--font-base);
+  font: $desktop-buttons;
   text-decoration: none;
   color: var(--white);
   border: none;
@@ -12,4 +14,10 @@
 
 .button.button--black {
   background-color: var(--black);
+}
+
+.button.button--outline {
+  border: 1px solid #000000;
+  color: #000000;
+  background-color: transparent;
 }

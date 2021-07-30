@@ -196,10 +196,75 @@ body {
     margin-right: 24px;
   }
 }
+.headline1 {
+  font: 900 3.125rem/3rem Inter;
+}
+
+.headline2 {
+  font: 900 2.5rem/4.0450000763rem Inter;
+}
+
+.headline3 {
+  font: 400 0.875rem/1.5rem Inter;
+}
+
+.headline5 {
+  font: 400 1.25rem/2.0225000381rem Inter;
+}
+
+.body1 {
+  font: 400 1.125rem/1.8202500343rem Inter;
+}
+
+.body3 {
+  font: 400 0.875rem/1.5rem Inter;
+}
+
+.regular {
+  font-weight: 400 !important;
+}
+
+.medium {
+  font-weight: 500 !important;
+}
+
+.semi-bold {
+  font-weight: 600 !important;
+}
+
+.bold {
+  font-weight: 700 !important;
+}
+
+.black {
+  font-weight: 900 !important;
+}
+
+.highlight {
+  color: var(--primary);
+}
+
+@media screen and (min-width: 1024px) {
+  .headline1 {
+    font: 900 5.625rem/5.625rem Inter;
+  }
+
+  .headline2 {
+    font: 900 3.25rem/4.0625rem Inter;
+  }
+
+  .headline5 {
+    font: 400 1.5rem/2rem Inter;
+  }
+
+  .body1 {
+    font: 400 1.125rem/2.25rem Inter;
+  }
+}
 .button {
   display: block;
   padding: 10px 24px;
-  font: 700 14px/28px var(--font-base);
+  font: 700 0.875rem/1.75rem Inter;
   text-decoration: none;
   color: var(--white);
   border: none;
@@ -210,6 +275,12 @@ body {
 
 .button.button--black {
   background-color: var(--black);
+}
+
+.button.button--outline {
+  border: 1px solid #000000;
+  color: #000000;
+  background-color: transparent;
 }
 
 .icon-button {
@@ -396,6 +467,145 @@ body {
 
   .steps-container {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+.headline1 {
+  font: 900 3.125rem/3rem Inter;
+}
+
+.headline2 {
+  font: 900 2.5rem/4.0450000763rem Inter;
+}
+
+.headline3 {
+  font: 400 0.875rem/1.5rem Inter;
+}
+
+.headline5 {
+  font: 400 1.25rem/2.0225000381rem Inter;
+}
+
+.body1 {
+  font: 400 1.125rem/1.8202500343rem Inter;
+}
+
+.body3 {
+  font: 400 0.875rem/1.5rem Inter;
+}
+
+.regular {
+  font-weight: 400 !important;
+}
+
+.medium {
+  font-weight: 500 !important;
+}
+
+.semi-bold {
+  font-weight: 600 !important;
+}
+
+.bold {
+  font-weight: 700 !important;
+}
+
+.black {
+  font-weight: 900 !important;
+}
+
+.highlight {
+  color: var(--primary);
+}
+
+@media screen and (min-width: 1024px) {
+  .headline1 {
+    font: 900 5.625rem/5.625rem Inter;
+  }
+
+  .headline2 {
+    font: 900 3.25rem/4.0625rem Inter;
+  }
+
+  .headline5 {
+    font: 400 1.5rem/2rem Inter;
+  }
+
+  .body1 {
+    font: 400 1.125rem/2.25rem Inter;
+  }
+}
+.schedule-mettings {
+  padding-bottom: 128px;
+}
+
+.schedule-mettings__header {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 792px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.schedule-mettings__header__title {
+  font: 900 2rem/3.236000061rem Inter;
+}
+
+.schedule-mettings__header__desc {
+  font: 400 1.5rem/2.4270000458rem Inter;
+}
+
+.schedule-mettings__content {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.schedule-mettings__content__info img {
+  width: 100%;
+  max-height: 450px;
+  object-fit: contain;
+}
+
+.schedule-mettings__content__info__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 40px;
+}
+
+.schedule-mettings__footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.schedule-mettings__footer .button {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .schedule-mettings__header {
+    padding-bottom: 80px;
+  }
+
+  .schedule-mettings__header__title {
+    font: 900 3.25rem/4.0625rem Inter;
+  }
+
+  .schedule-mettings__header__desc {
+    font: 500 1.5rem/2rem Inter;
+  }
+
+  .schedule-mettings__content {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .schedule-mettings__footer .button {
+    width: max-content;
   }
 }
 

@@ -1,0 +1,74 @@
+@import "../theme/fonts";
+
+.schedule-mettings {
+  padding-bottom: 128px;
+}
+
+.schedule-mettings__header {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 792px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.schedule-mettings__header__title {
+  font: $mobile-h3;
+}
+
+.schedule-mettings__header__desc {
+  font: $mobile-h4-regular;
+}
+
+.schedule-mettings__content {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.schedule-mettings__content__info img {
+  width: 100%;
+  max-height: 450px;
+  object-fit: contain;
+}
+
+.schedule-mettings__content__info__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 40px;
+}
+
+.schedule-mettings__footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.schedule-mettings__footer .button {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .schedule-mettings__header {
+    padding-bottom: 80px;
+  }
+  .schedule-mettings__header__title {
+    font: $desktop-h2;
+  }
+  .schedule-mettings__header__desc {
+    font: $desktop-h5-medium;
+  }
+
+  .schedule-mettings__content {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .schedule-mettings__footer .button {
+    width: max-content;
+  }
+}
