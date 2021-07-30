@@ -1,0 +1,23 @@
+{
+  "name": "calel",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">     <a href=\"https://leonidasesteban.com/proyectos/todos\"><img src=\"https://raw.githubusercontent.com/no-te-rindas/logo/main/Logo/LonidasEsteban-destello-envolvente-circular-negro.png\" height=\"100\"/></a> </p>",
+  "main": "index.js",
+  "scripts": {
+    "styles:dev": "sass ./assets/scss/styles.scss ./assets/css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devferx/calel.git"
+  },
+  "keywords": [],
+  "author": "Fernando Quinteros Gutierrez <ferkki@hotmail.com> (https://twitter.com/devferx)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devferx/calel/issues"
+  },
+  "homepage": "https://github.com/devferx/calel#readme",
+  "dependencies": {
+    "sass": "^1.36.0"
+  }
+}
