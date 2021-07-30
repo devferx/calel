@@ -4,6 +4,7 @@ $desktop-h1: 900 5.625rem/5.625rem Inter;
 $desktop-h2: 900 3.25rem/4.0625rem Inter;
 $desktop-h3: 900 2.5rem/3rem Inter;
 $desktop-h4: 900 2rem/2.5rem Inter;
+$desktop-h4-regular: 400 2rem/2.5rem Inter;
 $desktop-h5-regular: 400 1.5rem/2rem Inter;
 $desktop-h5-black: 900 1.5rem/2rem Inter;
 $desktop-h5-medium: 500 1.5rem/2rem Inter;
@@ -36,7 +37,10 @@ $mobile-body2-bold: 700 1rem/1.5rem Inter;
   font: $mobile-h2;
 }
 .headline3 {
-  font: $desktop-body3-regular;
+  font: $mobile-h3;
+}
+.headline4 {
+  font: $mobile-h4;
 }
 .headline5 {
   font: $mobile-h5-regular;
@@ -78,7 +82,12 @@ $mobile-body2-bold: 700 1rem/1.5rem Inter;
   .headline2 {
     font: $desktop-h2;
   }
-
+  .headline3 {
+    font: $desktop-h3;
+  }
+  .headline4 {
+    font: $desktop-h4;
+  }
   .headline5 {
     font: $desktop-h5-regular;
   }
