@@ -74,6 +74,9 @@ $mobile-body2-bold: 700 1rem/1.5rem Inter;
 .highlight {
   color: var(--primary);
 }
+.highlight-black {
+  color: var(--black);
+}
 
 @media screen and (min-width: 1024px) {
   .headline1 {

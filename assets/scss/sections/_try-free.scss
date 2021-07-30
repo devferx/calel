@@ -1,0 +1,62 @@
+@import "../theme/fonts";
+
+.try-free {
+  padding-bottom: 128px;
+}
+
+.try-free__content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 792px;
+}
+
+.try-free__content__desc {
+  font: $mobile-h4;
+}
+
+.try-free__action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  width: 250px;
+  height: 250px;
+  background: url("/assets/icons/action-bg.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+
+  &.mobile {
+    margin: 0 auto;
+  }
+
+  &.desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .try-free {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .try-free__content__desc {
+    font: $desktop-h5-medium;
+  }
+
+  .try-free__action {
+    &.mobile {
+      display: none;
+    }
+    &.desktop {
+      min-width: 250px;
+      min-height: 250px;
+      display: flex;
+    }
+  }
+}
